@@ -30,6 +30,8 @@ options
 the information is decoded according to the system encoding,
 since 4D Server does not broadcast in UTF-8.
 
+---
+
 note for AppleScript coders:
 
 linefeed is converted to return in the result from do shell script.
