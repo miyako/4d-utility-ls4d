@@ -9,7 +9,7 @@ Mac OS X 10.5 or later
 32/64 bits Intel Universal Binary (source available for PPC)
 
 Usage
-=====
+-----
 
 ls4d
 
@@ -22,7 +22,9 @@ by default, listens on port 19813 for 2 seconds each line.
 options
 
 -p, --port port number of the server (default=19813)
+
 -w, --wait number of seconds to wait for each udp line(default=2)
+
 -h, --help display this information
 
 the information is decoded according to the system encoding (CFStringGetSystemEncoding),
