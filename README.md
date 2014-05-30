@@ -21,11 +21,11 @@ by default, listens on port 19813 for 2 seconds each line.
 
 options
 
-`
+```
 -p, --port port number of the server (default=19813)
 -w, --wait number of seconds to wait for each udp line(default=2)
 -h, --help display this information
-`
+```
 
 the information is decoded according to the system encoding (CFStringGetSystemEncoding),
 since 4D Server does not broadcast in UTF-8.
@@ -37,10 +37,11 @@ the result is already unicode, do not cast the result using "as string",
 which will convert it back to legacy mac encoding.
 
 ex. parsing the result in AppleScript 
-`
+
+```
 set theList to (do shell script theProgramPath) & return
 return theList contains (tab & theApplicationPublishName & return)
-`
+```
 
 
 
