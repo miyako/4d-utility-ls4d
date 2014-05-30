@@ -5,18 +5,17 @@ A small command-line program to monitor 4D Server UDP broadcasts.
 
 System Requirements:
 
-Mac OS X 10.5 or later 
-32/64 bits Intel Universal Binary (source available for PPC)
+* Mac OS X 10.5 or later 
+* 32/64 bits Intel Universal Binary
 
 Usage
 -----
 
 ls4d
 
-returns list of 4D Server host names and published names (columsn are tab delimited, rows are linefeed delimited).
-
+returns list of 4D Server host names and published names. 
+columsn are tab delimited, rows are linefeed delimited.
 each item is limited to 32 bytes.
-
 by default, listens on port 19813 for 2 seconds each line.
 
 options
