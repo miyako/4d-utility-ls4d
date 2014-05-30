@@ -14,8 +14,11 @@ Usage
 ls4d
 
 returns list of 4D Server host names and published names. 
+
 columns are tab delimited, rows are linefeed delimited.
+
 each item is limited to 32 bytes.
+
 by default, listens on port 19813 for 2 seconds each line.
 
 options
@@ -27,12 +30,15 @@ options
 ```
 
 the information is decoded according to the system encoding,
+
 since 4D Server does not broadcast in UTF-8.
 
 note for AppleScript coders:
 
 linefeed is converted to return in the result from do shell script.
+
 the result is already unicode, do not cast the result using "as string",
+
 which will convert it back to legacy mac encoding.
 
 ex. parsing the result in AppleScript 
