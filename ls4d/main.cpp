@@ -69,9 +69,12 @@ int main (int argc, char * const argv[]) {
 			default:
 				abort();
 		}
+#ifdef __APPLE__
+	int sock;
+#else	
+    SOCKET sock;
+#endif
 	
-    int sock;
-
 #ifndef __APPLE__	
 	 WSADATA wsaData;
 	 WSAStartup(MAKEWORD(2, 2), &wsaData);
