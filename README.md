@@ -5,9 +5,8 @@ A small command-line program to monitor 4D Server UDP broadcasts.
 
 System Requirements:
 
-* Windows
-* Mac OS X 10.5 or later 
-* 32/64 bits Intel Universal Binary
+* Windows 32/64 bits
+* Mac OS X 10.5 or later, 32/64 bits Intel Universal Binary
 
 Usage
 -----
