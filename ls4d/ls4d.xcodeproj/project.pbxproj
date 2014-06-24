@@ -135,6 +135,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = ls4d;
+				SYMROOT = ../MacOS;
 			};
 			name = Debug;
 		};
@@ -146,6 +147,7 @@
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = ls4d;
+				SYMROOT = ../MacOS;
 			};
 			name = Release;
 		};
