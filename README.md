@@ -6,7 +6,9 @@ A small command-line program to monitor 4D Server UDP broadcasts.
 Usage
 -----
 
+```
 ls4d
+```
 
 returns list of 4D Server host names , IP address and published names. 
 columns are tab delimited, rows are linefeed delimited.
